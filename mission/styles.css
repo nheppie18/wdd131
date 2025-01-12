@@ -1,0 +1,40 @@
+html {
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    margin: 40px 550px;
+    padding: 50px; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 20px;
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.title :last-child {
+    color:#006EB6;
+    letter-spacing: 3px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+#byui-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+ .content *{
+    margin-bottom: 20px;
+}
